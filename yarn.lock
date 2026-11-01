@@ -1575,70 +1575,70 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.62.2.tgz#3671ce3f9b928d5c01f879792d5c0b60ae14d4ad"
   integrity sha512-BfzEnDJOt9T8M989/lA37EcJgat01wLRnoi5dQf3QzOH7jzpqTAzdDbVfRljVr5r+jzKqpbHeyOfAaXxAd0PAA==
 
-"@sentry/browser-utils@11.9.0":
-  version "11.9.0"
-  resolved "https://registry.yarnpkg.com/@sentry/browser-utils/-/browser-utils-11.9.0.tgz#f157ea758d33c3b888d876399d73b1bab8eb988e"
-  integrity sha512-HwEa+BYxNJ+9msyzKSL2w5+eQwWRGk13StZoMinRmkq+tK34pmIOeDRq/ARlofyYzffvY6R9Xggh9peLjYn2Rg==
+"@sentry/browser-utils@11.10.0":
+  version "11.10.0"
+  resolved "https://registry.yarnpkg.com/@sentry/browser-utils/-/browser-utils-11.10.0.tgz#25df36858b270a9fc361e160f3185e59457f856f"
+  integrity sha512-P/bYHTgj76sYBYCZa524YoZ/hZac2XCW3i3qShrMXnh7s63x1cweUjD7BDVDb0L/lGMwtuObuZeRnCif4hWLNg==
   dependencies:
-    "@sentry/conventions" "^0.27.0"
-    "@sentry/core" "11.9.0"
+    "@sentry/conventions" "^0.29.0"
+    "@sentry/core" "11.10.0"
     web-vitals "^6.2.3"
 
-"@sentry/browser@11.9.0":
-  version "11.9.0"
-  resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-11.9.0.tgz#8114e194402f4437301530e3e9ae976869ea082f"
-  integrity sha512-3YQ6DJyeqOV2b02m+kUNLUcFAlzyjCL30+4NZgUQLWlpmZgTO+b01v+HXwY5d7etf8mAKwEjL8BPoVqkVqL2Kg==
+"@sentry/browser@11.10.0":
+  version "11.10.0"
+  resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-11.10.0.tgz#e88ca4285e666dc821ee77c682ee6c5f5d5dda38"
+  integrity sha512-kU8Inx3K/PaaDGqTu4lBW8XCYNsYNTwwPIZNIRDas/mTXtepXpM7M0KxxrTSZXBTWX0RfDU4t7vsL9ay0o4+NQ==
   dependencies:
-    "@sentry/browser-utils" "11.9.0"
-    "@sentry/conventions" "^0.27.0"
-    "@sentry/core" "11.9.0"
-    "@sentry/feedback" "11.9.0"
-    "@sentry/replay" "11.9.0"
-    "@sentry/replay-canvas" "11.9.0"
+    "@sentry/browser-utils" "11.10.0"
+    "@sentry/conventions" "^0.29.0"
+    "@sentry/core" "11.10.0"
+    "@sentry/feedback" "11.10.0"
+    "@sentry/replay" "11.10.0"
+    "@sentry/replay-canvas" "11.10.0"
 
-"@sentry/conventions@^0.27.0":
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/@sentry/conventions/-/conventions-0.27.0.tgz#10a6a112d58347dfcf70d85d7a01e86f45a0ba2c"
-  integrity sha512-Mrqd/o7n/z7qWSYfQQA7x4fFTA0IqOG6JNsbBpnC97khPwZk7n6DPtOO7YgaYplSl8R8QLRbBz9Xv2lVhToSAg==
+"@sentry/conventions@^0.29.0":
+  version "0.29.0"
+  resolved "https://registry.yarnpkg.com/@sentry/conventions/-/conventions-0.29.0.tgz#37599c2ca3fad40638e03e8245f7a5d5fef9b6ba"
+  integrity sha512-kYq9/HJ/l6MYP/srIc20dy1W4mWyJfCF0OWFF+RhBGZwyr/wCmtabRFKyw7kqM+DTwZXQOjSTSZUcJhDowcInQ==
 
-"@sentry/core@11.9.0":
-  version "11.9.0"
-  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-11.9.0.tgz#bb64f1063197eb1ebce2d957c3f2545767983894"
-  integrity sha512-t0dZyHILt2XVC4Fe9UmAty6YRfOuQv95cvWeNl+HlW4LphjF5/jkALV3cJCUMdhpblYELgIJC4U/S/GoYuI2bA==
+"@sentry/core@11.10.0":
+  version "11.10.0"
+  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-11.10.0.tgz#33473062514bfd54b8b5751760ac290d7add5641"
+  integrity sha512-l/OtTo1v+TQgZtHG2Q5N4IX+gFdAE1tZ27K/P21UCzJglWk54TPEm+d9T2lulPqMK06kZcLwDgRAhE2GO4YS5w==
   dependencies:
-    "@sentry/conventions" "^0.27.0"
+    "@sentry/conventions" "^0.29.0"
 
-"@sentry/feedback@11.9.0":
-  version "11.9.0"
-  resolved "https://registry.yarnpkg.com/@sentry/feedback/-/feedback-11.9.0.tgz#7aae13f9dbb21df6b03d7cdf845ee37e1172ef61"
-  integrity sha512-Rq3xwo66AuuLgS4/v/ZrNwJo+barxzAtXRZWmMU5T60AGX2apTFQfvo0H4zsVwvxouvw9NBg8RmL7jF9MdNG7g==
+"@sentry/feedback@11.10.0":
+  version "11.10.0"
+  resolved "https://registry.yarnpkg.com/@sentry/feedback/-/feedback-11.10.0.tgz#571d72e0a47e4068ea1a9cd96cd09e075062ecbe"
+  integrity sha512-jZqxVHPoUeZ6W7xSlhJdTMuM/GUJLA/K4U9OFmkP+g+TvtXhdwWxeiT23m2Wm5NmTHjaB07jSc05ayuflD8ETw==
   dependencies:
-    "@sentry/core" "11.9.0"
+    "@sentry/core" "11.10.0"
 
-"@sentry/replay-canvas@11.9.0":
-  version "11.9.0"
-  resolved "https://registry.yarnpkg.com/@sentry/replay-canvas/-/replay-canvas-11.9.0.tgz#a41f4b48b872547a890a9df337085f3ef37e90c8"
-  integrity sha512-EqSlEg1iJFXKlGrpddZ+ytX7SS5oOgui5kAYqDOfNolmxoQc2dz0KXSEtLpiWjwnnfeJ5El0uAmv/1jPdrd4aw==
+"@sentry/replay-canvas@11.10.0":
+  version "11.10.0"
+  resolved "https://registry.yarnpkg.com/@sentry/replay-canvas/-/replay-canvas-11.10.0.tgz#b219df5255c18e1441f806bf85973bfeb8c1545b"
+  integrity sha512-i0Fsjbl8ChzTMntLVhZvn72+p395tGNtL4iflsprnzPhTVSOGW9IYgUYfO87UcujUf5CmYn7ELBKUc5V0Ipfdg==
   dependencies:
-    "@sentry/core" "11.9.0"
-    "@sentry/replay" "11.9.0"
+    "@sentry/core" "11.10.0"
+    "@sentry/replay" "11.10.0"
 
-"@sentry/replay@11.9.0":
-  version "11.9.0"
-  resolved "https://registry.yarnpkg.com/@sentry/replay/-/replay-11.9.0.tgz#6600f5f6f664f1bf18ba91a26fc5c0989cefd862"
-  integrity sha512-fSM8f1skiu6+O1Mzpn3BjtjoESygA+UcZaXyLr7t/1yDNPi7ne2+pJnrXo4oIFV1UbWJHPedo2vOIBNHDLABTg==
+"@sentry/replay@11.10.0":
+  version "11.10.0"
+  resolved "https://registry.yarnpkg.com/@sentry/replay/-/replay-11.10.0.tgz#f2909afa8dc32195ee7911d6a3645b4bbeb96082"
+  integrity sha512-0rcg+43tkO278VyrKcbmg0JQm2yxuguXKLbr9ieiNsynaxj22JC8baie4Uxizf2jM2ukfqA3O+o0Pbqaed8P2Q==
   dependencies:
-    "@sentry/browser-utils" "11.9.0"
-    "@sentry/core" "11.9.0"
+    "@sentry/browser-utils" "11.10.0"
+    "@sentry/core" "11.10.0"
 
-"@sentry/vue@^11.9.0":
-  version "11.9.0"
-  resolved "https://registry.yarnpkg.com/@sentry/vue/-/vue-11.9.0.tgz#738fe0684c2ab187fd7d46a55adecd7e93fbf679"
-  integrity sha512-eHeZbGOR2SOWc7+BSzYZ7JNlpJz8M047rxiRiac6CG3PH9T6cXQ+2EFNuQ1Qc8FwItV7PPpAhM5qSOujaFe8rg==
+"@sentry/vue@^11.10.0":
+  version "11.10.0"
+  resolved "https://registry.yarnpkg.com/@sentry/vue/-/vue-11.10.0.tgz#8ed12d22ae6a967d83dd68a5478d476d5858c442"
+  integrity sha512-jxoJzXQGsS8lm/RcAwHSEr8rwQ1e7Izv2qR1WG65YKP5iqI6BhlazC99XAVQC5k11viW3DTn6SMnymr4MDrZwQ==
   dependencies:
-    "@sentry/browser" "11.9.0"
-    "@sentry/conventions" "^0.27.0"
-    "@sentry/core" "11.9.0"
+    "@sentry/browser" "11.10.0"
+    "@sentry/conventions" "^0.29.0"
+    "@sentry/core" "11.10.0"
 
 "@trickfilm400/rollup-plugin-off-main-thread@^3.0.0-pre1":
   version "3.0.0-pre1"
@@ -3702,10 +3702,10 @@ jake@^10.8.5:
     filelist "^1.0.4"
     picocolors "^1.1.1"
 
-jose@^6.2.13:
-  version "6.2.13"
-  resolved "https://registry.yarnpkg.com/jose/-/jose-6.2.13.tgz#4e16bf3cc81b5641ef5025cb2c9f61edfa92572f"
-  integrity sha512-7TIg10ZE1x82YediN+lcrPNvGMKge9yFHQD+Qho/b8y2adfugU3AsvvHfxV0fzyFllT6l9xCjf4RWY9g/Z9PJQ==
+jose@^6.2.14:
+  version "6.2.14"
+  resolved "https://registry.yarnpkg.com/jose/-/jose-6.2.14.tgz#f275808d68c833735d484a96606e7e5d937bc03e"
+  integrity sha512-3JasLuki1NRLQvY4wCoC37KZk4qxoBx2k2aFqLxT84IezqW0bkJKnNtxnZj/Fu1xsQivoc/lytxaRHJoGLjJ1A==
 
 js-beautify@^2.0.0:
   version "2.0.3"
@@ -3779,10 +3779,10 @@ jwt-decode@^4.0.0:
   resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-4.0.0.tgz#2270352425fd413785b2faf11f6e755c5151bd4b"
   integrity sha512-+KJGIyHgkGuIq3IEBNftfhW/LfWhXUIY6OmyVWjliu5KH1y0fw7VQ8YndE2O4qZdMSd9SqbnC8GOcZEy0Om7sA==
 
-keycloak-js@^26.0.0:
-  version "26.2.4"
-  resolved "https://registry.yarnpkg.com/keycloak-js/-/keycloak-js-26.2.4.tgz#b96ff33ed08ff6fd8d1e09d9e5055c7b3f2fa918"
-  integrity sha512-PnXpR3ubETGOt0B/Qt2lxmPbkZr5bc3vlQsOqDoTPPQsZRp7JjhTKxlJ187uWh8qJhvBab6Gsjb06a8ayOPfuw==
+keycloak-js@^26.2.5:
+  version "26.2.5"
+  resolved "https://registry.yarnpkg.com/keycloak-js/-/keycloak-js-26.2.5.tgz#a4c2f47c655c706ab32b473d8caa820387e1eff0"
+  integrity sha512-iTR3hmYXlGZbBTskgr2PrGIfIzLrts8nwja2+D1gW6Q/S83C487rhM+WvPV9dxqXv81N0QwNG9BJAM60eDQ1Yw==
 
 keyv@^5.6.0:
   version "5.6.0"
@@ -4553,10 +4553,10 @@ safe-regex-test@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass@^1.106.1:
-  version "1.106.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.106.1.tgz#53b3df8ebfe0e5e0bc111afe54bd2f6fda089f9c"
-  integrity sha512-kD+Gi66vycZcbJt+42NC4z4PXNMcCajVrJPhqoKKXy5cOBMmJQt052CxIBcRjwYXeImHYOpu/ydWWGZQIenl7A==
+sass@^1.107.0:
+  version "1.107.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.107.0.tgz#2fc0e6fb63fcddb478bd9a7b05cfe7c08a2d3e5e"
+  integrity sha512-+whPilvVNoAD57xvdIPLQT0gXo4RD1lHYw+Uw8zYHlojaeaMDxK14tc0JmEsz/XMns48h3lpypisMP+3E8eHQA==
   dependencies:
     chokidar "^5.0.0"
     immutable "^5.1.5"
